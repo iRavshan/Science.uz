@@ -1,2 +1,2 @@
-![alt text](https://github.com/iRavsahan/Science.uz//blob/[branch]/image.jpg?raw=true)
+![alt text](https://github.com/iRavshan/Science.uz/blob/master/Science.Demo/arc.png?raw=true)
 
