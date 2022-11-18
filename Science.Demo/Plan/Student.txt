@@ -1,0 +1,16 @@
+1. ID *
+2. Ismi *
+3. Familiyasi *
+
+5. Telefon raqami *
+6. Email *
+7. Telegram username
+8. O'qigan/O'qiyotgan OTM *
+9. Maksimal erishgan darajasi [bakalavr/magistr/...] *
+10. Science.uz unvoni [veteran/master/pro/...]
+11. Platformada ro'yxatga olingan sana va vaqti *
+12. Offline ta'lim olishni xohlaydimi ? [true/false] *
+13. Online ta'lim olishni xohlaydimi ? [true/false] *
+14. Yashash manzili *   
+15. Bio
+16. Profil surati 

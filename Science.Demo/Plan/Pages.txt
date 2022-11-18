@@ -1,0 +1,24 @@
+I. Account:
+    1. Login Modal 
+    2. Register Page
+    3. Confirm Email
+    4. Reset Password
+    5. Settings Page
+
+II. For Students:
+    1. All Students
+    2. Student Profile
+
+II. For Research Advisors:
+    1. All advisors
+    2. Advisor Profile
+
+III. Ilmiy rahbarlar uchun filtr:
+    1. Ta'lim shakli: [online/offline]
+    2. Ilmiy daraja va unvoni [PhD/DSc/dotsent/professor/katta ilmiy xodim/akademik]
+    3. Science.uz unvoni [Veteran/Master/Pro/]
+
+IV. Talabalar uchun filtr:
+    1. Ta'lim shakli: [online/offline]
+    2. Oliy ta'lim darajasi: [bakalavr/magistr/aspirant/mutaxassis]
+    3. Science.uz unvoni [Veteran/Master/Pro/]

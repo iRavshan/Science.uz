@@ -1,0 +1,18 @@
+ID *
+Ismi *
+Familiyasi *
+Otasining ismi *
+Telefon raqami *
+Email *
+Telegram username
+Bog'lanish uchun qo'shimcha linklar [instagram/facebook/...]
+Ta'lim bergan/berayotgan OTM *
+Ilmiy unvoni/darajasi [PhD/DSc/...] *
+Science.uz unvoni [veteran/master/pro/...]
+Platformada ro'yxatga olingan sana va vaqti *
+Offline ta'lim berishni xohlaydimi ? [true/false] *
+Online ta'lim berishni xohlaydimi ? [true/false] *
+Yashash manzili *
+Bio
+Profil surati 
+        
