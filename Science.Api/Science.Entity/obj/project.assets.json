@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ravsh\\OneDrive\\Desktop\\Science.uz\\Science.Api\\Science.API\\Science.Entity\\Science.Entity.csproj",
+      "projectUniqueName": "C:\\Users\\ravsh\\OneDrive\\Desktop\\Science.uz\\Science.Api\\Science.Entity\\Science.Entity.csproj",
       "projectName": "Science.Entity",
-      "projectPath": "C:\\Users\\ravsh\\OneDrive\\Desktop\\Science.uz\\Science.Api\\Science.API\\Science.Entity\\Science.Entity.csproj",
+      "projectPath": "C:\\Users\\ravsh\\OneDrive\\Desktop\\Science.uz\\Science.Api\\Science.Entity\\Science.Entity.csproj",
       "packagesPath": "C:\\Users\\ravsh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ravsh\\OneDrive\\Desktop\\Science.uz\\Science.Api\\Science.API\\Science.Entity\\obj\\",
+      "outputPath": "C:\\Users\\ravsh\\OneDrive\\Desktop\\Science.uz\\Science.Api\\Science.Entity\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

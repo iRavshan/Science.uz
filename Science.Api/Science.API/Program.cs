@@ -1,9 +1,27 @@
-var builder = WebApplication.CreateBuilder(args);
+using Microsoft.EntityFrameworkCore;
+using Science.Data.DataContexts;
+using Science.Data.IRepositories;
+using Science.Data.Repositories;
+using Science.Service.IServices;
+using Science.Service.Services;
 
+var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+var connectiont = builder.Configuration.GetConnectionString("DatabaseConnection");
+
+builder.Services.AddDbContext<AppDbContext>(options =>
+        options.UseSqlServer(connectiont));
+
+builder.Services.AddScoped<IStudentRepository, StudentRepository>();
+builder.Services.AddScoped<IAdvisorRepository, AdvisorRepository>();
+
+builder.Services.AddScoped<IStudentService, StudentService>();
+builder.Services.AddScoped<IAdvisorService, AdvisorService>();  
+
 
 var app = builder.Build();
 
