@@ -1,18 +1,23 @@
-﻿using Science.Data.DataContexts;
+﻿using Microsoft.EntityFrameworkCore;
+using Science.Data.DataContexts;
 using Science.Data.IRepositories;
 using Science.Entity;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace Science.Data.Repositories
 {
     public class StudentRepository : IStudentRepository
     {
-        private readonly AppDbContext dbContext;
+        public readonly AppDbContext dbContext;
 
-        public StudentRepository(AppDbContext dbContext)
+        public StudentRepository(AppDbContext appContext)
         {
             this.dbContext = dbContext;
         }
-
         public async Task Create(Student student)
         {
             await dbContext.Students.AddAsync(student);
@@ -20,22 +25,22 @@ namespace Science.Data.Repositories
 
         public async Task Delete(Student student)
         {
-            dbContext.Students.Remove(student);
+            await dbContext.Students.Remove(student);
         }
 
         public async Task<IEnumerable<Student>> GetAllAsync()
         {
-            throw new NotImplementedException();
+            return await dbContext.Students.ToListAsync();
         }
 
         public async Task<Student> GetById(Guid id)
         {
-            throw new NotImplementedException();
+            return await dbContext.Students.FirstOrDefaultAsync(student => student.Id == id);
         }
 
-        public async Task Update(Student student)
+        public void Update(Student student)
         {
-            throw new NotImplementedException();
+            dbContext.Students.Update(student);
         }
     }
 }

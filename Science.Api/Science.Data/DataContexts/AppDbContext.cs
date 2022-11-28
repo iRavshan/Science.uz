@@ -9,5 +9,6 @@ namespace Science.Data.DataContexts
 
         public DbSet<Advisor> Advisors { get; set; }
         public DbSet<Student> Students { get; set; }
+        public DbSet<Work> Works { get; set; }
     }
 }

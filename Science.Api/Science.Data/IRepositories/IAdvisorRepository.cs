@@ -10,9 +10,13 @@ namespace Science.Data.IRepositories
     public interface IAdvisorRepository
     {
         Task Create(Advisor advisor);
-        Task Update(Advisor advisor);
+
+        void Update(Advisor advisor);
+
         Task Delete(Advisor advisor);
+
         Task<IEnumerable<Advisor>> GetAllAsync();
+
         Task<Advisor> GetById(Guid id);
     }
 }

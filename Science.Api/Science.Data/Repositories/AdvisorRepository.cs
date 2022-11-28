@@ -1,4 +1,5 @@
-﻿using Science.Data.DataContexts;
+﻿using Microsoft.EntityFrameworkCore;
+using Science.Data.DataContexts;
 using Science.Data.IRepositories;
 using Science.Entity;
 using System;
@@ -18,29 +19,29 @@ namespace Science.Data.Repositories
             this.dbContext = dbContext;
         }
 
-        public Task Create(Advisor advisor)
+        public async Task Create(Advisor advisor)
         {
-            throw new NotImplementedException();
+            await dbContext.Advisors.AddAsync();
         }
 
-        public Task Delete(Advisor advisor)
+        public async Task Delete(Advisor advisor)
         {
-            throw new NotImplementedException();
+            dbContext.Advisors.Remove(advisor);
         }
 
-        public Task<IEnumerable<Advisor>> GetAllAsync()
+        public async Task<IEnumerable<Advisor>> GetAllAsync()
         {
-            throw new NotImplementedException();
+            return await dbContext.Advisors.ToListAsync();
         }
 
-        public Task<Advisor> GetById(Guid id)
+        public async Task<Advisor> GetById(Guid id)
         {
-            throw new NotImplementedException();
+            return await dbContext.Advisors.FirstOrDefaultAsync(advisor => advisor.Id == id);
         }
 
-        public Task Update(Advisor advisor)
+        public void Update(Advisor advisor)
         {
-            throw new NotImplementedException();
+            dbContext.Advisors.Update(advisor);
         }
     }
 }

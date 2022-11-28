@@ -1,0 +1,10 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Science.Api",
+    "\\Science.Api\\Science.Service",
+    "\\Science.Api\\Science.Service\\IServices"
+  ],
+  "SelectedNode": "\\Science.Api\\Science.Service\\IServices\\IAdvisorService.cs",
+  "PreviewInSolutionExplorer": false
+}

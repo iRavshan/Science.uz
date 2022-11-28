@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ravsh\\OneDrive\\Desktop\\Science.uz\\Science.Api\\Science.Service\\Science.Service.csproj": {}
+    "C:\\Users\\HP\\source\\repos\\Science.uz\\Science.Api\\Science.Service\\Science.Service.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ravsh\\OneDrive\\Desktop\\Science.uz\\Science.Api\\Science.Data\\Science.Data.csproj": {
+    "C:\\Users\\HP\\source\\repos\\Science.uz\\Science.Api\\Science.Data\\Science.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ravsh\\OneDrive\\Desktop\\Science.uz\\Science.Api\\Science.Data\\Science.Data.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\source\\repos\\Science.uz\\Science.Api\\Science.Data\\Science.Data.csproj",
         "projectName": "Science.Data",
-        "projectPath": "C:\\Users\\ravsh\\OneDrive\\Desktop\\Science.uz\\Science.Api\\Science.Data\\Science.Data.csproj",
-        "packagesPath": "C:\\Users\\ravsh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ravsh\\OneDrive\\Desktop\\Science.uz\\Science.Api\\Science.Data\\obj\\",
+        "projectPath": "C:\\Users\\HP\\source\\repos\\Science.uz\\Science.Api\\Science.Data\\Science.Data.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HP\\source\\repos\\Science.uz\\Science.Api\\Science.Data\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ravsh\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,15 +22,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\ravsh\\OneDrive\\Desktop\\Science.uz\\Science.Api\\Science.Entity\\Science.Entity.csproj": {
-                "projectPath": "C:\\Users\\ravsh\\OneDrive\\Desktop\\Science.uz\\Science.Api\\Science.Entity\\Science.Entity.csproj"
+              "C:\\Users\\HP\\source\\repos\\Science.uz\\Science.Api\\Science.Entity\\Science.Entity.csproj": {
+                "projectPath": "C:\\Users\\HP\\source\\repos\\Science.uz\\Science.Api\\Science.Entity\\Science.Entity.csproj"
               }
             }
           }
@@ -58,6 +53,12 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0, )"
             }
           },
           "imports": [
@@ -80,21 +81,17 @@
         }
       }
     },
-    "C:\\Users\\ravsh\\OneDrive\\Desktop\\Science.uz\\Science.Api\\Science.DTO\\Science.DTO.csproj": {
+    "C:\\Users\\HP\\source\\repos\\Science.uz\\Science.Api\\Science.DTO\\Science.DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ravsh\\OneDrive\\Desktop\\Science.uz\\Science.Api\\Science.DTO\\Science.DTO.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\source\\repos\\Science.uz\\Science.Api\\Science.DTO\\Science.DTO.csproj",
         "projectName": "Science.DTO",
-        "projectPath": "C:\\Users\\ravsh\\OneDrive\\Desktop\\Science.uz\\Science.Api\\Science.DTO\\Science.DTO.csproj",
-        "packagesPath": "C:\\Users\\ravsh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ravsh\\OneDrive\\Desktop\\Science.uz\\Science.Api\\Science.DTO\\obj\\",
+        "projectPath": "C:\\Users\\HP\\source\\repos\\Science.uz\\Science.Api\\Science.DTO\\Science.DTO.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HP\\source\\repos\\Science.uz\\Science.Api\\Science.DTO\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ravsh\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -102,15 +99,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\ravsh\\OneDrive\\Desktop\\Science.uz\\Science.Api\\Science.Entity\\Science.Entity.csproj": {
-                "projectPath": "C:\\Users\\ravsh\\OneDrive\\Desktop\\Science.uz\\Science.Api\\Science.Entity\\Science.Entity.csproj"
+              "C:\\Users\\HP\\source\\repos\\Science.uz\\Science.Api\\Science.Entity\\Science.Entity.csproj": {
+                "projectPath": "C:\\Users\\HP\\source\\repos\\Science.uz\\Science.Api\\Science.Entity\\Science.Entity.csproj"
               }
             }
           }
@@ -144,21 +140,17 @@
         }
       }
     },
-    "C:\\Users\\ravsh\\OneDrive\\Desktop\\Science.uz\\Science.Api\\Science.Entity\\Science.Entity.csproj": {
+    "C:\\Users\\HP\\source\\repos\\Science.uz\\Science.Api\\Science.Entity\\Science.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ravsh\\OneDrive\\Desktop\\Science.uz\\Science.Api\\Science.Entity\\Science.Entity.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\source\\repos\\Science.uz\\Science.Api\\Science.Entity\\Science.Entity.csproj",
         "projectName": "Science.Entity",
-        "projectPath": "C:\\Users\\ravsh\\OneDrive\\Desktop\\Science.uz\\Science.Api\\Science.Entity\\Science.Entity.csproj",
-        "packagesPath": "C:\\Users\\ravsh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ravsh\\OneDrive\\Desktop\\Science.uz\\Science.Api\\Science.Entity\\obj\\",
+        "projectPath": "C:\\Users\\HP\\source\\repos\\Science.uz\\Science.Api\\Science.Entity\\Science.Entity.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HP\\Source\\Repos\\Science.uz\\Science.Api\\Science.Entity\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ravsh\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -166,7 +158,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -204,21 +195,17 @@
         }
       }
     },
-    "C:\\Users\\ravsh\\OneDrive\\Desktop\\Science.uz\\Science.Api\\Science.Service\\Science.Service.csproj": {
+    "C:\\Users\\HP\\source\\repos\\Science.uz\\Science.Api\\Science.Service\\Science.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ravsh\\OneDrive\\Desktop\\Science.uz\\Science.Api\\Science.Service\\Science.Service.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\source\\repos\\Science.uz\\Science.Api\\Science.Service\\Science.Service.csproj",
         "projectName": "Science.Service",
-        "projectPath": "C:\\Users\\ravsh\\OneDrive\\Desktop\\Science.uz\\Science.Api\\Science.Service\\Science.Service.csproj",
-        "packagesPath": "C:\\Users\\ravsh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ravsh\\OneDrive\\Desktop\\Science.uz\\Science.Api\\Science.Service\\obj\\",
+        "projectPath": "C:\\Users\\HP\\source\\repos\\Science.uz\\Science.Api\\Science.Service\\Science.Service.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HP\\source\\repos\\Science.uz\\Science.Api\\Science.Service\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ravsh\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -226,18 +213,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\ravsh\\OneDrive\\Desktop\\Science.uz\\Science.Api\\Science.Data\\Science.Data.csproj": {
-                "projectPath": "C:\\Users\\ravsh\\OneDrive\\Desktop\\Science.uz\\Science.Api\\Science.Data\\Science.Data.csproj"
+              "C:\\Users\\HP\\source\\repos\\Science.uz\\Science.Api\\Science.Data\\Science.Data.csproj": {
+                "projectPath": "C:\\Users\\HP\\source\\repos\\Science.uz\\Science.Api\\Science.Data\\Science.Data.csproj"
               },
-              "C:\\Users\\ravsh\\OneDrive\\Desktop\\Science.uz\\Science.Api\\Science.DTO\\Science.DTO.csproj": {
-                "projectPath": "C:\\Users\\ravsh\\OneDrive\\Desktop\\Science.uz\\Science.Api\\Science.DTO\\Science.DTO.csproj"
+              "C:\\Users\\HP\\source\\repos\\Science.uz\\Science.Api\\Science.DTO\\Science.DTO.csproj": {
+                "projectPath": "C:\\Users\\HP\\source\\repos\\Science.uz\\Science.Api\\Science.DTO\\Science.DTO.csproj"
               }
             }
           }

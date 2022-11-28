@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ravsh\\OneDrive\\Desktop\\Science.uz\\Science.Api\\Science.Entity\\Science.Entity.csproj": {}
+    "C:\\Users\\HP\\source\\repos\\Science.uz\\Science.Api\\Science.Entity\\Science.Entity.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ravsh\\OneDrive\\Desktop\\Science.uz\\Science.Api\\Science.Entity\\Science.Entity.csproj": {
+    "C:\\Users\\HP\\source\\repos\\Science.uz\\Science.Api\\Science.Entity\\Science.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ravsh\\OneDrive\\Desktop\\Science.uz\\Science.Api\\Science.Entity\\Science.Entity.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\source\\repos\\Science.uz\\Science.Api\\Science.Entity\\Science.Entity.csproj",
         "projectName": "Science.Entity",
-        "projectPath": "C:\\Users\\ravsh\\OneDrive\\Desktop\\Science.uz\\Science.Api\\Science.Entity\\Science.Entity.csproj",
-        "packagesPath": "C:\\Users\\ravsh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ravsh\\OneDrive\\Desktop\\Science.uz\\Science.Api\\Science.Entity\\obj\\",
+        "projectPath": "C:\\Users\\HP\\source\\repos\\Science.uz\\Science.Api\\Science.Entity\\Science.Entity.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HP\\Source\\Repos\\Science.uz\\Science.Api\\Science.Entity\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ravsh\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
