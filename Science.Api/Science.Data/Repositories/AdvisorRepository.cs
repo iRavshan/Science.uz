@@ -19,12 +19,12 @@ namespace Science.Data.Repositories
             this.dbContext = dbContext;
         }
 
-        public async Task Create(Advisor advisor)
+        public async Task CreateAsync(Advisor advisor)
         {
             await dbContext.Advisors.AddAsync();
         }
 
-        public async Task Delete(Advisor advisor)
+        public async Task DeleteAsync(Advisor advisor)
         {
             dbContext.Advisors.Remove(advisor);
         }
@@ -34,7 +34,7 @@ namespace Science.Data.Repositories
             return await dbContext.Advisors.ToListAsync();
         }
 
-        public async Task<Advisor> GetById(Guid id)
+        public async Task<Advisor?> GetByIdAsync(Guid id)
         {
             return await dbContext.Advisors.FirstOrDefaultAsync(advisor => advisor.Id == id);
         }
