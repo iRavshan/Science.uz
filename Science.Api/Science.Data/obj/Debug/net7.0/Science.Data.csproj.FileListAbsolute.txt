@@ -1,0 +1,5 @@
+C:\Users\ravsh\OneDrive\Desktop\Science.uz\Science.Api\Science.Data\obj\Debug\net7.0\Science.Data.csproj.AssemblyReference.cache
+C:\Users\ravsh\OneDrive\Desktop\Science.uz\Science.Api\Science.Data\obj\Debug\net7.0\Science.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ravsh\OneDrive\Desktop\Science.uz\Science.Api\Science.Data\obj\Debug\net7.0\Science.Data.AssemblyInfoInputs.cache
+C:\Users\ravsh\OneDrive\Desktop\Science.uz\Science.Api\Science.Data\obj\Debug\net7.0\Science.Data.AssemblyInfo.cs
+C:\Users\ravsh\OneDrive\Desktop\Science.uz\Science.Api\Science.Data\obj\Debug\net7.0\Science.Data.csproj.CoreCompileInputs.cache

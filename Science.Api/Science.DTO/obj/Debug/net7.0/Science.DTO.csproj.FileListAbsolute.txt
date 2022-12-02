@@ -1,0 +1,15 @@
+C:\Users\ravsh\OneDrive\Desktop\Science.uz\Science.Api\Science.DTO\bin\Debug\net7.0\Science.DTO.deps.json
+C:\Users\ravsh\OneDrive\Desktop\Science.uz\Science.Api\Science.DTO\bin\Debug\net7.0\Science.DTO.dll
+C:\Users\ravsh\OneDrive\Desktop\Science.uz\Science.Api\Science.DTO\bin\Debug\net7.0\Science.DTO.pdb
+C:\Users\ravsh\OneDrive\Desktop\Science.uz\Science.Api\Science.DTO\bin\Debug\net7.0\Science.Entity.dll
+C:\Users\ravsh\OneDrive\Desktop\Science.uz\Science.Api\Science.DTO\bin\Debug\net7.0\Science.Entity.pdb
+C:\Users\ravsh\OneDrive\Desktop\Science.uz\Science.Api\Science.DTO\obj\Debug\net7.0\Science.DTO.csproj.AssemblyReference.cache
+C:\Users\ravsh\OneDrive\Desktop\Science.uz\Science.Api\Science.DTO\obj\Debug\net7.0\Science.DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ravsh\OneDrive\Desktop\Science.uz\Science.Api\Science.DTO\obj\Debug\net7.0\Science.DTO.AssemblyInfoInputs.cache
+C:\Users\ravsh\OneDrive\Desktop\Science.uz\Science.Api\Science.DTO\obj\Debug\net7.0\Science.DTO.AssemblyInfo.cs
+C:\Users\ravsh\OneDrive\Desktop\Science.uz\Science.Api\Science.DTO\obj\Debug\net7.0\Science.DTO.csproj.CoreCompileInputs.cache
+C:\Users\ravsh\OneDrive\Desktop\Science.uz\Science.Api\Science.DTO\obj\Debug\net7.0\Science.DTO.csproj.CopyComplete
+C:\Users\ravsh\OneDrive\Desktop\Science.uz\Science.Api\Science.DTO\obj\Debug\net7.0\Science.DTO.dll
+C:\Users\ravsh\OneDrive\Desktop\Science.uz\Science.Api\Science.DTO\obj\Debug\net7.0\refint\Science.DTO.dll
+C:\Users\ravsh\OneDrive\Desktop\Science.uz\Science.Api\Science.DTO\obj\Debug\net7.0\Science.DTO.pdb
+C:\Users\ravsh\OneDrive\Desktop\Science.uz\Science.Api\Science.DTO\obj\Debug\net7.0\ref\Science.DTO.dll

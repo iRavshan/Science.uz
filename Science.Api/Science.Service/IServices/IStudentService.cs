@@ -1,5 +1,4 @@
-﻿using Science.
-using Science.DTO.User.Login;
+﻿using Science.DTO.User.Login;
 using Science.Entity;
 using System;
 using System.Collections.Generic;
@@ -21,7 +20,5 @@ namespace Science.Service.IServices
         Task<IEnumerable<Student>> GetAllAsync();
 
         Task<Student> GetByServiesId(Guid id);
-
-        Task Login(LoginRequest loginRequest);
     }
 }

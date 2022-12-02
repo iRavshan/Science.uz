@@ -1,7 +1,6 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using Science.API.User.Login;
+﻿using Microsoft.AspNetCore.Mvc;
 using Science.Service.IServices;
+using Serilog;
 
 namespace Science.API.Controllers
 {
@@ -16,9 +15,12 @@ namespace Science.API.Controllers
             this.studentService = studentService;
         }
 
-        public async Task<IActionResult> Login(LoginRequest loginRequest)
+        [HttpGet]
+        public async Task<IActionResult> GetAll()
         {
-            await studentService.Login(loginRequest);
+            Log.Information("GetAll ishladi");
+
+            return Ok(await studentService.GetAllAsync());
         }
     }
 

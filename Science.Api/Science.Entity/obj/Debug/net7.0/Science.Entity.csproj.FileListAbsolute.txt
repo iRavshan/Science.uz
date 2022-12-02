@@ -1,0 +1,12 @@
+C:\Users\ravsh\OneDrive\Desktop\Science.uz\Science.Api\Science.Entity\bin\Debug\net7.0\Science.Entity.deps.json
+C:\Users\ravsh\OneDrive\Desktop\Science.uz\Science.Api\Science.Entity\bin\Debug\net7.0\Science.Entity.dll
+C:\Users\ravsh\OneDrive\Desktop\Science.uz\Science.Api\Science.Entity\bin\Debug\net7.0\Science.Entity.pdb
+C:\Users\ravsh\OneDrive\Desktop\Science.uz\Science.Api\Science.Entity\obj\Debug\net7.0\Science.Entity.csproj.AssemblyReference.cache
+C:\Users\ravsh\OneDrive\Desktop\Science.uz\Science.Api\Science.Entity\obj\Debug\net7.0\Science.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ravsh\OneDrive\Desktop\Science.uz\Science.Api\Science.Entity\obj\Debug\net7.0\Science.Entity.AssemblyInfoInputs.cache
+C:\Users\ravsh\OneDrive\Desktop\Science.uz\Science.Api\Science.Entity\obj\Debug\net7.0\Science.Entity.AssemblyInfo.cs
+C:\Users\ravsh\OneDrive\Desktop\Science.uz\Science.Api\Science.Entity\obj\Debug\net7.0\Science.Entity.csproj.CoreCompileInputs.cache
+C:\Users\ravsh\OneDrive\Desktop\Science.uz\Science.Api\Science.Entity\obj\Debug\net7.0\Science.Entity.dll
+C:\Users\ravsh\OneDrive\Desktop\Science.uz\Science.Api\Science.Entity\obj\Debug\net7.0\refint\Science.Entity.dll
+C:\Users\ravsh\OneDrive\Desktop\Science.uz\Science.Api\Science.Entity\obj\Debug\net7.0\Science.Entity.pdb
+C:\Users\ravsh\OneDrive\Desktop\Science.uz\Science.Api\Science.Entity\obj\Debug\net7.0\ref\Science.Entity.dll

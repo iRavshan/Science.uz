@@ -43,10 +43,5 @@ namespace Science.Service.Services
         {
            return await studentRepository.Update(student);
         }
-
-        public async Task Login(LoginRequest loginRequest)
-        {
-            return await 
-        }
     }
 }

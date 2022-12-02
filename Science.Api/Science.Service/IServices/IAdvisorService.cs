@@ -10,11 +10,10 @@ namespace Science.Service.IServices
 {
     public interface IAdvisorService
     {
-        Task Login(LoginRequest loginRequest);
 
         Task Create(Advisor advisor);
 
-        Task Update(Advisor advisor);
+        void Update(Advisor advisor);
 
         Task Delete(Advisor advisor);
 

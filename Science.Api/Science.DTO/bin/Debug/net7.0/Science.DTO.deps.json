@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Science.DTO/1.0.0": {
+        "dependencies": {
+          "Science.Entity": "1.0.0"
+        },
+        "runtime": {
+          "Science.DTO.dll": {}
+        }
+      },
+      "Science.Entity/1.0.0": {
+        "runtime": {
+          "Science.Entity.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Science.DTO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Science.Entity/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -14,18 +14,18 @@ namespace Science.Service.Services
     {
         public readonly IAdvisorRepository advisorRepository;
 
-        public AdvisorService()
+        public AdvisorService(IAdvisorRepository advisorRepository)
         {
             this.advisorRepository = advisorRepository;
         }
         public async Task Create(Advisor advisor)
         {
-            advisorRepository.Create(advisor);
+            await advisorRepository.CreateAsync(advisor);
         }
 
         public async Task Delete(Advisor advisor)
         {
-            await advisorRepository.Delete(advisor);
+            await advisorRepository.DeleteAsync(advisor);
         }
 
         public async Task<IEnumerable<Advisor>> GetAllAsync()
@@ -33,19 +33,14 @@ namespace Science.Service.Services
             return await advisorRepository.GetAllAsync();
         }
 
-        public async Task<IEnumerable<Advisor>> GetById(Guid id)
+        public async Task<Advisor> GetById(Guid id)
         {
-            return await advisorRepository.GetById(id);
+            return await advisorRepository.GetByIdAsync(id);
         }
 
-        public async Task Update(Advisor advisor)
+        public void Update(Advisor advisor)
         {
-            return await advisorRepository.Update(advisor);
-        }
-
-        public async Task Login(LoginRequest loginRequest)
-        {
-
+            advisorRepository.Update(advisor);
         }
     }
 }

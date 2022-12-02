@@ -31,3 +31,12 @@ C:\Users\ravsh\OneDrive\Desktop\Science.uz\Science.Api\Science.API\Science.API\o
 C:\Users\ravsh\OneDrive\Desktop\Science.uz\Science.Api\Science.API\Science.API\obj\Debug\net7.0\Science.API.pdb
 C:\Users\ravsh\OneDrive\Desktop\Science.uz\Science.Api\Science.API\Science.API\obj\Debug\net7.0\Science.API.genruntimeconfig.cache
 C:\Users\ravsh\OneDrive\Desktop\Science.uz\Science.Api\Science.API\Science.API\obj\Debug\net7.0\ref\Science.API.dll
+C:\Users\ravsh\OneDrive\Desktop\Science.uz\Science.Api\Science.API\obj\Debug\net7.0\Science.API.csproj.AssemblyReference.cache
+C:\Users\ravsh\OneDrive\Desktop\Science.uz\Science.Api\Science.API\obj\Debug\net7.0\Science.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ravsh\OneDrive\Desktop\Science.uz\Science.Api\Science.API\obj\Debug\net7.0\Science.API.AssemblyInfoInputs.cache
+C:\Users\ravsh\OneDrive\Desktop\Science.uz\Science.Api\Science.API\obj\Debug\net7.0\Science.API.AssemblyInfo.cs
+C:\Users\ravsh\OneDrive\Desktop\Science.uz\Science.Api\Science.API\obj\Debug\net7.0\Science.API.csproj.CoreCompileInputs.cache
+C:\Users\ravsh\OneDrive\Desktop\Science.uz\Science.Api\Science.API\obj\Debug\net7.0\Science.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ravsh\OneDrive\Desktop\Science.uz\Science.Api\Science.API\obj\Debug\net7.0\Science.API.dll
+C:\Users\ravsh\OneDrive\Desktop\Science.uz\Science.Api\Science.API\obj\Debug\net7.0\refint\Science.API.dll
+C:\Users\ravsh\OneDrive\Desktop\Science.uz\Science.Api\Science.API\obj\Debug\net7.0\Science.API.pdb
