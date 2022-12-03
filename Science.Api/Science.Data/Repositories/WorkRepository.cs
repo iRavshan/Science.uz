@@ -2,11 +2,6 @@
 using Science.Data.DataContexts;
 using Science.Data.IRepositories;
 using Science.Entity;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Science.Data.Repositories
 {
@@ -34,7 +29,7 @@ namespace Science.Data.Repositories
             return await dbContext.Works.ToListAsync();
         }
 
-        public async Task<Work> GetById(Guid id)
+        public async Task<Work?> GetById(Guid id)
         {
             return await dbContext.Works.FirstOrDefaultAsync(work => work.Id == id);
         }

@@ -9,18 +9,19 @@ namespace Science.Data.Repositories
     {
         public readonly AppDbContext dbContext;
 
-        public StudentRepository(AppDbContext appContext)
+        public StudentRepository(AppDbContext dbContext)
         {
             this.dbContext = dbContext;
         }
+
         public async Task Create(Student student)
         {
             await dbContext.Students.AddAsync(student);
         }
 
-        public async Task Delete(Student student)
+        public void Delete(Student student)
         {
-            await dbContext.Students.Remove(student);
+            dbContext.Students.Remove(student);
         }
 
         public async Task<IEnumerable<Student>> GetAllAsync()
@@ -28,7 +29,7 @@ namespace Science.Data.Repositories
             return await dbContext.Students.ToListAsync();
         }
 
-        public async Task<Student> GetById(Guid id)
+        public async Task<Student?> GetById(Guid id)
         {
             return await dbContext.Students.FirstOrDefaultAsync(student => student.Id == id);
         }

@@ -1,12 +1,6 @@
 ﻿using Science.Data.IRepositories;
-using Science.DTO.User.Login;
 using Science.Entity;
 using Science.Service.IServices;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Science.Service.Services
 {

@@ -35,7 +35,7 @@ namespace Science.Service.Services
 
         public async Task<Work> GetByIdService(Guid id)
         {
-            await workRepository.GetById(id);
+            return await workRepository.GetById(id);
         }
 
         public void Update(Work work)

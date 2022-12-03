@@ -1,12 +1,6 @@
 ﻿using Science.Data.IRepositories;
-using Science.DTO.User.Login;
 using Science.Entity;
 using Science.Service.IServices;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Science.Service.Services
 {
@@ -39,9 +33,9 @@ namespace Science.Service.Services
             return await studentRepository.GetById(id);
         }
 
-        public async Task Update(Student student)
+        public void Update(Student student)
         {
-           return await studentRepository.Update(student);
+            studentRepository.Update(student);
         }
     }
 }
