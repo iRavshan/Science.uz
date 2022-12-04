@@ -17,9 +17,9 @@ namespace Science.Service.Services
             await advisorRepository.CreateAsync(advisor);
         }
 
-        public async Task Delete(Advisor advisor)
+        public void Delete(Advisor advisor)
         {
-            await advisorRepository.DeleteAsync(advisor);
+            advisorRepository.Delete(advisor);
         }
 
         public async Task<IEnumerable<Advisor>> GetAllAsync()

@@ -16,10 +16,10 @@ namespace Science.Data.Repositories
 
         public async Task CreateAsync(Advisor advisor)
         {
-            await dbContext.Advisors.AddAsync();
+            await dbContext.Advisors.AddAsync(advisor);
         }
 
-        public async Task DeleteAsync(Advisor advisor)
+        public void Delete(Advisor advisor)
         {
             dbContext.Advisors.Remove(advisor);
         }

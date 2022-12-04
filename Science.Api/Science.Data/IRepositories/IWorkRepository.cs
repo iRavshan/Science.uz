@@ -6,7 +6,7 @@ namespace Science.Data.IRepositories
     {
         Task Create(Work work);
 
-        Task Delete(Work work);
+        void Delete(Work work);
 
         void Update(Work work);
 

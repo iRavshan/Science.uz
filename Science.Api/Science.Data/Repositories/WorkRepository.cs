@@ -16,12 +16,12 @@ namespace Science.Data.Repositories
 
         public async Task Create(Work work)
         {
-           return await dbContext.Works.AddAsync(work);
+           await dbContext.Works.AddAsync(work);
         }
 
-        public async Task Delete(Work work)
+        public void Delete(Work work)
         {
-            await dbContext.Works.Remove(work);
+            dbContext.Works.Remove(work);
         }
 
         public async Task<IEnumerable<Work>> GetAllAsync()

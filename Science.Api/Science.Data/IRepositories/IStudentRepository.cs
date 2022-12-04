@@ -14,6 +14,6 @@ namespace Science.Data.IRepositories
         
         Task<Student> GetById(Guid id);
 
-
+        Task SaveChangesAsync();
     }
 }

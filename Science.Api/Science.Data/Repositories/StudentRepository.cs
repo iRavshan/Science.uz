@@ -34,6 +34,11 @@ namespace Science.Data.Repositories
             return await dbContext.Students.FirstOrDefaultAsync(student => student.Id == id);
         }
 
+        public async Task SaveChangesAsync()
+        {
+            await dbContext.SaveChangesAsync();
+        }
+
         public void Update(Student student)
         {
             dbContext.Students.Update(student);

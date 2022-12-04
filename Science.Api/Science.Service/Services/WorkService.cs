@@ -23,9 +23,9 @@ namespace Science.Service.Services
             await workRepository.Create(work);
         }
 
-        public async Task Delete(Work work)
+        public void Delete(Work work)
         {
-            await workRepository.Delete(work);
+            workRepository.Delete(work);
         }
 
         public async Task<IEnumerable<Work>> GetAllServiceAsync()

@@ -5,13 +5,15 @@ VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Science.API", "Science.API\Science.API.csproj", "{4240D5C4-2445-4651-A5B8-8EDA5C7CC890}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Science.Entity", "Science.Entity\Science.Entity.csproj", "{F17CA332-948B-4E61-9FC0-A05715C9EC23}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Science.Entity", "Science.Entity\Science.Entity.csproj", "{F17CA332-948B-4E61-9FC0-A05715C9EC23}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Science.Data", "Science.Data\Science.Data.csproj", "{FA51525F-8358-4374-826A-E13FF7A6FFB9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Science.Data", "Science.Data\Science.Data.csproj", "{FA51525F-8358-4374-826A-E13FF7A6FFB9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Science.Service", "Science.Service\Science.Service.csproj", "{A53241D5-59C6-49FD-AAC2-04EE0E7013C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Science.Service", "Science.Service\Science.Service.csproj", "{A53241D5-59C6-49FD-AAC2-04EE0E7013C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Science.DTO", "Science.DTO\Science.DTO.csproj", "{45B7C484-BDAA-4A30-9911-5DCF814BD7FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Science.DTO", "Science.DTO\Science.DTO.csproj", "{45B7C484-BDAA-4A30-9911-5DCF814BD7FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Science.Utility", "Science.Utility\Science.Utility.csproj", "{6374D30B-3E74-4114-AB8F-1C818C5D71D8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{45B7C484-BDAA-4A30-9911-5DCF814BD7FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{45B7C484-BDAA-4A30-9911-5DCF814BD7FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{45B7C484-BDAA-4A30-9911-5DCF814BD7FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6374D30B-3E74-4114-AB8F-1C818C5D71D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6374D30B-3E74-4114-AB8F-1C818C5D71D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6374D30B-3E74-4114-AB8F-1C818C5D71D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6374D30B-3E74-4114-AB8F-1C818C5D71D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

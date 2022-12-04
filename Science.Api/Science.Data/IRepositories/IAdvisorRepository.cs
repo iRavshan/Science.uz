@@ -8,7 +8,7 @@ namespace Science.Data.IRepositories
 
         void Update(Advisor advisor);
 
-        Task DeleteAsync(Advisor advisor);
+        void Delete(Advisor advisor);
 
         Task<IEnumerable<Advisor>> GetAllAsync();
 

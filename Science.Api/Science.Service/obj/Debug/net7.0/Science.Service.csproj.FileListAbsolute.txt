@@ -3,3 +3,17 @@ C:\Users\ravsh\OneDrive\Desktop\Science.uz\Science.Api\Science.Service\obj\Debug
 C:\Users\ravsh\OneDrive\Desktop\Science.uz\Science.Api\Science.Service\obj\Debug\net7.0\Science.Service.AssemblyInfoInputs.cache
 C:\Users\ravsh\OneDrive\Desktop\Science.uz\Science.Api\Science.Service\obj\Debug\net7.0\Science.Service.AssemblyInfo.cs
 C:\Users\ravsh\OneDrive\Desktop\Science.uz\Science.Api\Science.Service\obj\Debug\net7.0\Science.Service.csproj.CoreCompileInputs.cache
+C:\Users\ravsh\OneDrive\Desktop\Science.uz\Science.Api\Science.Service\bin\Debug\net7.0\Science.Service.deps.json
+C:\Users\ravsh\OneDrive\Desktop\Science.uz\Science.Api\Science.Service\bin\Debug\net7.0\Science.Service.dll
+C:\Users\ravsh\OneDrive\Desktop\Science.uz\Science.Api\Science.Service\bin\Debug\net7.0\Science.Service.pdb
+C:\Users\ravsh\OneDrive\Desktop\Science.uz\Science.Api\Science.Service\bin\Debug\net7.0\Science.Data.dll
+C:\Users\ravsh\OneDrive\Desktop\Science.uz\Science.Api\Science.Service\bin\Debug\net7.0\Science.DTO.dll
+C:\Users\ravsh\OneDrive\Desktop\Science.uz\Science.Api\Science.Service\bin\Debug\net7.0\Science.Entity.dll
+C:\Users\ravsh\OneDrive\Desktop\Science.uz\Science.Api\Science.Service\bin\Debug\net7.0\Science.Data.pdb
+C:\Users\ravsh\OneDrive\Desktop\Science.uz\Science.Api\Science.Service\bin\Debug\net7.0\Science.DTO.pdb
+C:\Users\ravsh\OneDrive\Desktop\Science.uz\Science.Api\Science.Service\bin\Debug\net7.0\Science.Entity.pdb
+C:\Users\ravsh\OneDrive\Desktop\Science.uz\Science.Api\Science.Service\obj\Debug\net7.0\Science.Service.csproj.CopyComplete
+C:\Users\ravsh\OneDrive\Desktop\Science.uz\Science.Api\Science.Service\obj\Debug\net7.0\Science.Service.dll
+C:\Users\ravsh\OneDrive\Desktop\Science.uz\Science.Api\Science.Service\obj\Debug\net7.0\refint\Science.Service.dll
+C:\Users\ravsh\OneDrive\Desktop\Science.uz\Science.Api\Science.Service\obj\Debug\net7.0\Science.Service.pdb
+C:\Users\ravsh\OneDrive\Desktop\Science.uz\Science.Api\Science.Service\obj\Debug\net7.0\ref\Science.Service.dll

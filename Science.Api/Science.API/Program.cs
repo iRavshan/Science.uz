@@ -8,10 +8,10 @@ using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
 
-Log.Logger = new LoggerConfiguration()
-    .WriteTo.File("Logs\\log-.txt", rollingInterval: RollingInterval.Day)
-    .WriteTo.Console()
-    .CreateLogger();
+//Log.Logger = new LoggerConfiguration()
+//    .WriteTo.File("Logs\\log-.txt", rollingInterval: RollingInterval.Day)
+//    .WriteTo.Console()
+//    .CreateLogger();
 
 
 builder.Services.AddControllers();
@@ -31,6 +31,8 @@ builder.Services.AddScoped<IStudentService, StudentService>();
 builder.Services.AddScoped<IAdvisorService, AdvisorService>(); 
 builder.Services.AddScoped<IWorkService, WorkService>();
 
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
 
 var app = builder.Build();
 
@@ -40,7 +42,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseSerilogRequestLogging();
+//app.UseSerilogRequestLogging();
 
 app.UseHttpsRedirection();
 

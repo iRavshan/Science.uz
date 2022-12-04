@@ -1,5 +1,17 @@
+C:\Users\ravsh\OneDrive\Desktop\Science.uz\Science.Api\Science.Data\bin\Debug\net7.0\Science.Data.deps.json
+C:\Users\ravsh\OneDrive\Desktop\Science.uz\Science.Api\Science.Data\bin\Debug\net7.0\Science.Data.runtimeconfig.json
+C:\Users\ravsh\OneDrive\Desktop\Science.uz\Science.Api\Science.Data\bin\Debug\net7.0\Science.Data.dll
+C:\Users\ravsh\OneDrive\Desktop\Science.uz\Science.Api\Science.Data\bin\Debug\net7.0\Science.Data.pdb
+C:\Users\ravsh\OneDrive\Desktop\Science.uz\Science.Api\Science.Data\bin\Debug\net7.0\Science.Entity.dll
+C:\Users\ravsh\OneDrive\Desktop\Science.uz\Science.Api\Science.Data\bin\Debug\net7.0\Science.Entity.pdb
 C:\Users\ravsh\OneDrive\Desktop\Science.uz\Science.Api\Science.Data\obj\Debug\net7.0\Science.Data.csproj.AssemblyReference.cache
 C:\Users\ravsh\OneDrive\Desktop\Science.uz\Science.Api\Science.Data\obj\Debug\net7.0\Science.Data.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\ravsh\OneDrive\Desktop\Science.uz\Science.Api\Science.Data\obj\Debug\net7.0\Science.Data.AssemblyInfoInputs.cache
 C:\Users\ravsh\OneDrive\Desktop\Science.uz\Science.Api\Science.Data\obj\Debug\net7.0\Science.Data.AssemblyInfo.cs
 C:\Users\ravsh\OneDrive\Desktop\Science.uz\Science.Api\Science.Data\obj\Debug\net7.0\Science.Data.csproj.CoreCompileInputs.cache
+C:\Users\ravsh\OneDrive\Desktop\Science.uz\Science.Api\Science.Data\obj\Debug\net7.0\Science.Data.csproj.CopyComplete
+C:\Users\ravsh\OneDrive\Desktop\Science.uz\Science.Api\Science.Data\obj\Debug\net7.0\Science.Data.dll
+C:\Users\ravsh\OneDrive\Desktop\Science.uz\Science.Api\Science.Data\obj\Debug\net7.0\refint\Science.Data.dll
+C:\Users\ravsh\OneDrive\Desktop\Science.uz\Science.Api\Science.Data\obj\Debug\net7.0\Science.Data.pdb
+C:\Users\ravsh\OneDrive\Desktop\Science.uz\Science.Api\Science.Data\obj\Debug\net7.0\Science.Data.genruntimeconfig.cache
+C:\Users\ravsh\OneDrive\Desktop\Science.uz\Science.Api\Science.Data\obj\Debug\net7.0\ref\Science.Data.dll

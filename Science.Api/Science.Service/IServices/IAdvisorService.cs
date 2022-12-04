@@ -9,7 +9,7 @@ namespace Science.Service.IServices
 
         void Update(Advisor advisor);
 
-        Task Delete(Advisor advisor);
+        void Delete(Advisor advisor);
 
         Task<IEnumerable<Advisor>> GetAllAsync();
 

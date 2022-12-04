@@ -1,4 +1,6 @@
-﻿namespace Science.Entity.Common
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Science.Entity.Common
 {
     public class User
     {
