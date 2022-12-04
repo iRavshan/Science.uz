@@ -1,9 +1,13 @@
-﻿using Science.Entity.Common;
-
-namespace Science.Entity
+﻿namespace Science.Entity
 {
-    public class Student : User
+    public class Student
     {
-        
+        public Guid Id { get; set; }
+
+        public string FirstName { get; set; }
+
+        public string LastName { get; set; }
+
+        public string PhoneNumber { get; set; }
     }
 }

@@ -11,6 +11,7 @@
           "Microsoft.AspNetCore.OpenApi": "7.0.0",
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.17.0",
           "Science.Service": "1.0.0",
+          "Science.Utility": "1.0.0",
           "Swashbuckle.AspNetCore": "6.4.0"
         },
         "runtime": {
@@ -875,6 +876,15 @@
         "runtime": {
           "Science.Service.dll": {}
         }
+      },
+      "Science.Utility/1.0.0": {
+        "dependencies": {
+          "Science.DTO": "1.0.0",
+          "Science.Data": "1.0.0"
+        },
+        "runtime": {
+          "Science.Utility.dll": {}
+        }
       }
     }
   },
@@ -1537,6 +1547,11 @@
       "sha512": ""
     },
     "Science.Service/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Science.Utility/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

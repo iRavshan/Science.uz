@@ -1577,6 +1577,20 @@
         "runtime": {
           "bin/placeholder/Science.Service.dll": {}
         }
+      },
+      "Science.Utility/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Science.DTO": "1.0.0",
+          "Science.Data": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Science.Utility.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Science.Utility.dll": {}
+        }
       }
     }
   },
@@ -4623,6 +4637,11 @@
       "type": "project",
       "path": "../Science.Service/Science.Service.csproj",
       "msbuildProject": "../Science.Service/Science.Service.csproj"
+    },
+    "Science.Utility/1.0.0": {
+      "type": "project",
+      "path": "../Science.Utility/Science.Utility.csproj",
+      "msbuildProject": "../Science.Utility/Science.Utility.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -4630,6 +4649,7 @@
       "Microsoft.AspNetCore.OpenApi >= 7.0.0",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.17.0",
       "Science.Service >= 1.0.0",
+      "Science.Utility >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.4.0"
     ]
   },
@@ -4668,6 +4688,9 @@
           "projectReferences": {
             "C:\\Users\\ravsh\\OneDrive\\Desktop\\Science.uz\\Science.Api\\Science.Service\\Science.Service.csproj": {
               "projectPath": "C:\\Users\\ravsh\\OneDrive\\Desktop\\Science.uz\\Science.Api\\Science.Service\\Science.Service.csproj"
+            },
+            "C:\\Users\\ravsh\\OneDrive\\Desktop\\Science.uz\\Science.Api\\Science.Utility\\Science.Utility.csproj": {
+              "projectPath": "C:\\Users\\ravsh\\OneDrive\\Desktop\\Science.uz\\Science.Api\\Science.Utility\\Science.Utility.csproj"
             }
           }
         }
