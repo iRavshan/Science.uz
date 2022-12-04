@@ -1,4 +1,3 @@
-using AutoMapper;
 using Microsoft.EntityFrameworkCore;
 using Science.Data.DataContexts;
 using Science.Data.IRepositories;
@@ -10,11 +9,12 @@ using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
 
-Log.Logger = new LoggerConfiguration()
+var logger = new LoggerConfiguration()
     .WriteTo.File("Logs\\log-.txt", rollingInterval: RollingInterval.Day)
     .WriteTo.Console()
     .CreateLogger();
 
+builder.Logging.AddSerilog(logger);
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
