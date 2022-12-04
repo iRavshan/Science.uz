@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Science.DTO.Student;
 using Science.Entity;
 using Science.Service.IServices;
+using Serilog;
 
 namespace Science.API.Controllers
 {
@@ -24,7 +25,7 @@ namespace Science.API.Controllers
         public async Task<IActionResult> GetById(Guid Id)
         {
             var student = await studentService.GetByIdAsync(Id);
-
+            
             return Ok(student);
         }
 
@@ -36,6 +37,13 @@ namespace Science.API.Controllers
             await studentService.SaveChangesAsync();
 
             return Ok();
+        }
+
+        [HttpGet("GetAll")]
+        public async Task<IActionResult> GetAll()
+        {
+            Log.Information("Ah, there you are!");
+            return Ok(await studentService.GetAllAsync());
         }
     }
 

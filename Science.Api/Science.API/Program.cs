@@ -10,10 +10,10 @@ using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
 
-//Log.Logger = new LoggerConfiguration()
-//    .WriteTo.File("Logs\\log-.txt", rollingInterval: RollingInterval.Day)
-//    .WriteTo.Console()
-//    .CreateLogger();
+Log.Logger = new LoggerConfiguration()
+    .WriteTo.File("Logs\\log-.txt", rollingInterval: RollingInterval.Day)
+    .WriteTo.Console()
+    .CreateLogger();
 
 
 builder.Services.AddControllers();
@@ -45,8 +45,6 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-
-//app.UseSerilogRequestLogging();
 
 app.UseHttpsRedirection();
 
