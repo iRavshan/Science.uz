@@ -21,7 +21,7 @@ namespace Science.API.Controllers
             this.mapper = mapper;
         }
 
-        [HttpGet("GetById")]
+        [HttpGet("getById")]
         public async Task<IActionResult> GetById(Guid Id)
         {
             var student = await studentService.GetByIdAsync(Id);
@@ -39,7 +39,7 @@ namespace Science.API.Controllers
             return Ok();
         }
 
-        [HttpGet("GetAll")]
+        [HttpGet("getAll")]
         public async Task<IActionResult> GetAll()
         {
             Log.Information("Ah, there you are!");
