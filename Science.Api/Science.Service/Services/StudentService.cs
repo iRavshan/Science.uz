@@ -14,12 +14,14 @@ namespace Science.Service.Services
             this.studentRepository = studentRepository;
         }
 
-        public async Task CreateAsync(Student student)
+        public async Task<Student> CreateAsync(Student student)
         {
             await studentRepository.Create(student);
+
+            return student;
         }
 
-        public async Task<bool> Delete(Guid Id)
+        public async Task<bool> DeleteAsync(Guid Id)
         {
             var student = await studentRepository.GetById(Id);
 
@@ -45,9 +47,10 @@ namespace Science.Service.Services
             await studentRepository.SaveChangesAsync();
         }
 
-        public void Update(Student student)
+        public Student Update(Student student)
         {
             studentRepository.Update(student);
+            return student;
         }
     }
 }
