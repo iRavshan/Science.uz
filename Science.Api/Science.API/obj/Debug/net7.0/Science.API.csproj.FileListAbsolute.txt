@@ -128,3 +128,7 @@ C:\Users\ravsh\OneDrive\Desktop\Science.uz\Science.Api\Science.API\bin\Debug\net
 C:\Users\ravsh\OneDrive\Desktop\Science.uz\Science.Api\Science.API\bin\Debug\net7.0\System.CodeDom.dll
 C:\Users\ravsh\OneDrive\Desktop\Science.uz\Science.Api\Science.API\bin\Debug\net7.0\Science.Utility.dll
 C:\Users\ravsh\OneDrive\Desktop\Science.uz\Science.Api\Science.API\bin\Debug\net7.0\Science.Utility.pdb
+C:\Users\ravsh\OneDrive\Desktop\Science.uz\Science.Api\Science.API\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\ravsh\OneDrive\Desktop\Science.uz\Science.Api\Science.API\bin\Debug\net7.0\Scrutor.dll
+C:\Users\ravsh\OneDrive\Desktop\Science.uz\Science.Api\Science.API\bin\Debug\net7.0\Swashbuckle.AspNetCore.Filters.dll
+C:\Users\ravsh\OneDrive\Desktop\Science.uz\Science.Api\Science.API\bin\Debug\net7.0\Swashbuckle.AspNetCore.Filters.Abstractions.dll

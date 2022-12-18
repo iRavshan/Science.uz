@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "vA2EDt3GXC43AiSLcT1hsu0YVehn+s9WbuviLfGxYyhtnQVIYZpSTExn/gsuIoLR0X3Ze1PuBrpRCUqHr/m44A==",
+  "dgSpecHash": "vmMGA8Ba8E+9XCG46fGZ1s1lBfDzcI7Kt3Jx+Hw8jhNMX/uFJvBpDPwRe5q7fwxoSKsKwDNw9OJT3H0IrUb/AQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\ravsh\\OneDrive\\Desktop\\Science.uz\\Science.Api\\Science.API\\Science.API.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,7 @@
     "C:\\Users\\ravsh\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\ravsh\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\ravsh\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\ravsh\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\7.0.1\\microsoft.aspnetcore.authentication.jwtbearer.7.0.1.nupkg.sha512",
     "C:\\Users\\ravsh\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.0\\microsoft.aspnetcore.openapi.7.0.0.nupkg.sha512",
     "C:\\Users\\ravsh\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\ravsh\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
@@ -53,6 +54,7 @@
     "C:\\Users\\ravsh\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\ravsh\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
     "C:\\Users\\ravsh\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\ravsh\\.nuget\\packages\\scrutor\\3.3.0\\scrutor.3.3.0.nupkg.sha512",
     "C:\\Users\\ravsh\\.nuget\\packages\\serilog\\2.12.0\\serilog.2.12.0.nupkg.sha512",
     "C:\\Users\\ravsh\\.nuget\\packages\\serilog.aspnetcore\\6.1.0\\serilog.aspnetcore.6.1.0.nupkg.sha512",
     "C:\\Users\\ravsh\\.nuget\\packages\\serilog.extensions.hosting\\5.0.1\\serilog.extensions.hosting.5.0.1.nupkg.sha512",
@@ -63,6 +65,8 @@
     "C:\\Users\\ravsh\\.nuget\\packages\\serilog.sinks.debug\\2.0.0\\serilog.sinks.debug.2.0.0.nupkg.sha512",
     "C:\\Users\\ravsh\\.nuget\\packages\\serilog.sinks.file\\5.0.0\\serilog.sinks.file.5.0.0.nupkg.sha512",
     "C:\\Users\\ravsh\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "C:\\Users\\ravsh\\.nuget\\packages\\swashbuckle.aspnetcore.filters\\7.0.6\\swashbuckle.aspnetcore.filters.7.0.6.nupkg.sha512",
+    "C:\\Users\\ravsh\\.nuget\\packages\\swashbuckle.aspnetcore.filters.abstractions\\7.0.6\\swashbuckle.aspnetcore.filters.abstractions.7.0.6.nupkg.sha512",
     "C:\\Users\\ravsh\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
     "C:\\Users\\ravsh\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
     "C:\\Users\\ravsh\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512",

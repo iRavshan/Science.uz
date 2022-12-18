@@ -1,0 +1,137 @@
+2022-12-17 22:20:25.126 +05:00 [INF] Now listening on: https://localhost:7207
+2022-12-17 22:20:25.180 +05:00 [INF] Now listening on: http://localhost:5265
+2022-12-17 22:20:25.190 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-17 22:20:25.196 +05:00 [INF] Hosting environment: Development
+2022-12-17 22:20:25.201 +05:00 [INF] Content root path: C:\Users\ravsh\OneDrive\Desktop\Science.uz\Science.Api\Science.API
+2022-12-17 22:20:31.762 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7207/swagger/index.html - -
+2022-12-17 22:20:32.304 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7207/swagger/index.html - - - 200 - text/html;charset=utf-8 546.4791ms
+2022-12-17 22:20:32.341 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7207/swagger/swagger-ui-standalone-preset.js - -
+2022-12-17 22:20:32.341 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7207/swagger/swagger-ui-bundle.js - -
+2022-12-17 22:20:32.341 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7207/swagger/swagger-ui.css - -
+2022-12-17 22:20:32.341 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7207/_framework/aspnetcore-browser-refresh.js - -
+2022-12-17 22:20:32.380 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7207/_framework/aspnetcore-browser-refresh.js - - - 200 11991 application/javascript;+charset=utf-8 38.8539ms
+2022-12-17 22:20:32.397 +05:00 [INF] The file /swagger-ui-standalone-preset.js was not modified
+2022-12-17 22:20:32.397 +05:00 [INF] The file /swagger-ui-bundle.js was not modified
+2022-12-17 22:20:32.397 +05:00 [INF] The file /swagger-ui.css was not modified
+2022-12-17 22:20:32.400 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7207/swagger/swagger-ui-standalone-preset.js - - - 304 - text/javascript 58.4247ms
+2022-12-17 22:20:32.401 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7207/swagger/swagger-ui-bundle.js - - - 304 - text/javascript 59.5362ms
+2022-12-17 22:20:32.403 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7207/swagger/swagger-ui.css - - - 304 - text/css 61.4129ms
+2022-12-17 22:20:32.410 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7207/_vs/browserLink - -
+2022-12-17 22:20:32.523 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7207/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 113.3356ms
+2022-12-17 22:20:32.764 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7207/swagger/v1/swagger.json - -
+2022-12-17 22:20:32.930 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7207/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 166.0946ms
+2022-12-17 22:21:13.495 +05:00 [INF] Now listening on: https://localhost:7207
+2022-12-17 22:21:13.548 +05:00 [INF] Now listening on: http://localhost:5265
+2022-12-17 22:21:13.563 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-17 22:21:13.568 +05:00 [INF] Hosting environment: Development
+2022-12-17 22:21:13.571 +05:00 [INF] Content root path: C:\Users\ravsh\OneDrive\Desktop\Science.uz\Science.Api\Science.API
+2022-12-17 22:21:14.725 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7207/swagger/index.html - -
+2022-12-17 22:21:15.224 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7207/swagger/index.html - - - 200 - text/html;charset=utf-8 501.5674ms
+2022-12-17 22:21:15.252 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7207/_framework/aspnetcore-browser-refresh.js - -
+2022-12-17 22:21:15.260 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7207/_framework/aspnetcore-browser-refresh.js - - - 200 11991 application/javascript;+charset=utf-8 7.5711ms
+2022-12-17 22:21:15.271 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7207/_vs/browserLink - -
+2022-12-17 22:21:15.346 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7207/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 74.4922ms
+2022-12-17 22:21:15.606 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7207/swagger/v1/swagger.json - -
+2022-12-17 22:21:15.751 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7207/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 145.4273ms
+2022-12-17 22:21:19.271 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7207/api/Student/getAll - -
+2022-12-17 22:21:19.289 +05:00 [INF] Executing endpoint 'Science.API.Controllers.StudentController.GetAll (Science.API)'
+2022-12-17 22:21:19.334 +05:00 [INF] Route matched with {action = "GetAll", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller Science.API.Controllers.StudentController (Science.API).
+2022-12-17 22:21:23.040 +05:00 [INF] Executed DbCommand (44ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[FirstName], [s].[LastName], [s].[PhoneNumber]
+FROM [Students] AS [s]
+2022-12-17 22:21:23.144 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Science.Entity.Student, Science.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-12-17 22:21:23.167 +05:00 [INF] Executed action Science.API.Controllers.StudentController.GetAll (Science.API) in 3825.4844ms
+2022-12-17 22:21:23.169 +05:00 [INF] Executed endpoint 'Science.API.Controllers.StudentController.GetAll (Science.API)'
+2022-12-17 22:21:23.180 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7207/api/Student/getAll - - - 200 - application/json;+charset=utf-8 3909.5423ms
+2022-12-17 22:23:16.152 +05:00 [INF] Now listening on: https://localhost:7207
+2022-12-17 22:23:16.232 +05:00 [INF] Now listening on: http://localhost:5265
+2022-12-17 22:23:16.246 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-17 22:23:16.260 +05:00 [INF] Hosting environment: Development
+2022-12-17 22:23:16.269 +05:00 [INF] Content root path: C:\Users\ravsh\OneDrive\Desktop\Science.uz\Science.Api\Science.API
+2022-12-17 22:23:16.877 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7207/swagger/index.html - -
+2022-12-17 22:23:17.312 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7207/swagger/index.html - - - 200 - text/html;charset=utf-8 435.4959ms
+2022-12-17 22:23:17.345 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7207/_framework/aspnetcore-browser-refresh.js - -
+2022-12-17 22:23:17.357 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7207/_framework/aspnetcore-browser-refresh.js - - - 200 11991 application/javascript;+charset=utf-8 11.9052ms
+2022-12-17 22:23:17.381 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7207/_vs/browserLink - -
+2022-12-17 22:23:17.466 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7207/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 84.9059ms
+2022-12-17 22:23:17.575 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7207/swagger/v1/swagger.json - -
+2022-12-17 22:23:17.728 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7207/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 153.1555ms
+2022-12-17 22:23:22.430 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7207/api/Student/getAll - -
+2022-12-17 22:23:22.448 +05:00 [INF] Executing endpoint 'Science.API.Controllers.StudentController.GetAll (Science.API)'
+2022-12-17 22:23:22.488 +05:00 [INF] Route matched with {action = "GetAll", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller Science.API.Controllers.StudentController (Science.API).
+2022-12-17 22:23:24.414 +05:00 [INF] Executed DbCommand (42ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[FirstName], [s].[LastName], [s].[PhoneNumber]
+FROM [Students] AS [s]
+2022-12-17 22:23:24.539 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Science.Entity.Student, Science.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-12-17 22:23:24.564 +05:00 [INF] Executed action Science.API.Controllers.StudentController.GetAll (Science.API) in 2066.1824ms
+2022-12-17 22:23:24.568 +05:00 [INF] Executed endpoint 'Science.API.Controllers.StudentController.GetAll (Science.API)'
+2022-12-17 22:23:24.579 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7207/api/Student/getAll - - - 200 - application/json;+charset=utf-8 2149.2123ms
+2022-12-17 22:23:33.617 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7207/api/Student/getById/3fa85f64-5717-4562-b3fc-2c963f66afa6 - -
+2022-12-17 22:23:33.624 +05:00 [INF] Executing endpoint 'Science.API.Controllers.StudentController.GetById (Science.API)'
+2022-12-17 22:23:33.659 +05:00 [INF] Route matched with {action = "GetById", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetById(System.Guid) on controller Science.API.Controllers.StudentController (Science.API).
+2022-12-17 22:23:33.928 +05:00 [INF] Executed DbCommand (62ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [s].[Id], [s].[FirstName], [s].[LastName], [s].[PhoneNumber]
+FROM [Students] AS [s]
+WHERE [s].[Id] = @__id_0
+2022-12-17 22:23:33.936 +05:00 [INF] Executing OkObjectResult, writing value of type 'Science.Entity.Student'.
+2022-12-17 22:23:33.938 +05:00 [INF] Executed action Science.API.Controllers.StudentController.GetById (Science.API) in 266.3899ms
+2022-12-17 22:23:33.941 +05:00 [INF] Executed endpoint 'Science.API.Controllers.StudentController.GetById (Science.API)'
+2022-12-17 22:23:33.944 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7207/api/Student/getById/3fa85f64-5717-4562-b3fc-2c963f66afa6 - - - 200 - application/json;+charset=utf-8 327.4751ms
+2022-12-17 22:24:10.130 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7207/api/Student/getById/C4E2729B-6207-402E-8B67-BF975041E0BD - -
+2022-12-17 22:24:10.143 +05:00 [INF] Executing endpoint 'Science.API.Controllers.StudentController.GetById (Science.API)'
+2022-12-17 22:24:10.146 +05:00 [INF] Route matched with {action = "GetById", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetById(System.Guid) on controller Science.API.Controllers.StudentController (Science.API).
+2022-12-17 22:24:10.358 +05:00 [INF] Executed DbCommand (38ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [s].[Id], [s].[FirstName], [s].[LastName], [s].[PhoneNumber]
+FROM [Students] AS [s]
+WHERE [s].[Id] = @__id_0
+2022-12-17 22:24:10.364 +05:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2022-12-17 22:24:10.369 +05:00 [INF] Executed action Science.API.Controllers.StudentController.GetById (Science.API) in 217.3408ms
+2022-12-17 22:24:10.370 +05:00 [INF] Executed endpoint 'Science.API.Controllers.StudentController.GetById (Science.API)'
+2022-12-17 22:24:10.372 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7207/api/Student/getById/C4E2729B-6207-402E-8B67-BF975041E0BD - - - 404 - application/problem+json;+charset=utf-8 245.4257ms
+2022-12-17 22:26:27.988 +05:00 [INF] Now listening on: https://localhost:7207
+2022-12-17 22:26:28.023 +05:00 [INF] Now listening on: http://localhost:5265
+2022-12-17 22:26:28.029 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-17 22:26:28.031 +05:00 [INF] Hosting environment: Development
+2022-12-17 22:26:28.032 +05:00 [INF] Content root path: C:\Users\ravsh\OneDrive\Desktop\Science.uz\Science.Api\Science.API
+2022-12-17 22:26:29.100 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7207/swagger/index.html - -
+2022-12-17 22:26:29.447 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7207/swagger/index.html - - - 200 - text/html;charset=utf-8 349.4368ms
+2022-12-17 22:26:29.477 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7207/_framework/aspnetcore-browser-refresh.js - -
+2022-12-17 22:26:29.483 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7207/_framework/aspnetcore-browser-refresh.js - - - 200 11991 application/javascript;+charset=utf-8 6.0999ms
+2022-12-17 22:26:29.500 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7207/_vs/browserLink - -
+2022-12-17 22:26:29.568 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7207/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 67.6129ms
+2022-12-17 22:26:29.720 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7207/swagger/v1/swagger.json - -
+2022-12-17 22:26:29.879 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7207/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 158.8301ms
+2022-12-17 22:26:40.545 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7207/api/Student/getById/C4E2729B-6207-402E-8B67-BF975041E0BD - -
+2022-12-17 22:26:40.559 +05:00 [INF] Executing endpoint 'Science.API.Controllers.StudentController.GetById (Science.API)'
+2022-12-17 22:26:40.622 +05:00 [INF] Route matched with {action = "GetById", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetById(System.Guid) on controller Science.API.Controllers.StudentController (Science.API).
+2022-12-17 22:26:43.029 +05:00 [INF] Executed DbCommand (84ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [s].[Id], [s].[FirstName], [s].[LastName], [s].[PhoneNumber]
+FROM [Students] AS [s]
+WHERE [s].[Id] = @__id_0
+2022-12-17 22:26:43.086 +05:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2022-12-17 22:26:43.101 +05:00 [INF] Executed action Science.API.Controllers.StudentController.GetById (Science.API) in 2473.6302ms
+2022-12-17 22:26:43.103 +05:00 [INF] Executed endpoint 'Science.API.Controllers.StudentController.GetById (Science.API)'
+2022-12-17 22:26:43.115 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7207/api/Student/getById/C4E2729B-6207-402E-8B67-BF975041E0BD - - - 404 - application/problem+json;+charset=utf-8 2570.0026ms
+2022-12-17 22:33:05.901 +05:00 [INF] Now listening on: https://localhost:7207
+2022-12-17 22:33:05.935 +05:00 [INF] Now listening on: http://localhost:5265
+2022-12-17 22:33:05.940 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-17 22:33:05.943 +05:00 [INF] Hosting environment: Development
+2022-12-17 22:33:05.945 +05:00 [INF] Content root path: C:\Users\ravsh\OneDrive\Desktop\Science.uz\Science.Api\Science.API
+2022-12-17 22:33:06.984 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7207/swagger/index.html - -
+2022-12-17 22:33:07.311 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7207/swagger/index.html - - - 200 - text/html;charset=utf-8 330.4210ms
+2022-12-17 22:33:07.339 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7207/_framework/aspnetcore-browser-refresh.js - -
+2022-12-17 22:33:07.345 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7207/_framework/aspnetcore-browser-refresh.js - - - 200 11991 application/javascript;+charset=utf-8 5.9408ms
+2022-12-17 22:33:07.360 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7207/_vs/browserLink - -
+2022-12-17 22:33:07.427 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7207/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 67.5158ms
+2022-12-17 22:33:07.533 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7207/swagger/v1/swagger.json - -
+2022-12-17 22:33:07.699 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7207/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 165.8260ms
+2022-12-17 22:33:36.814 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7207/api/Student/getAll - -
+2022-12-17 22:33:36.830 +05:00 [INF] Executing endpoint 'Science.API.Controllers.StudentController.GetAll (Science.API)'
+2022-12-17 22:33:36.863 +05:00 [INF] Route matched with {action = "GetAll", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller Science.API.Controllers.StudentController (Science.API).
+2022-12-17 22:33:39.603 +05:00 [INF] Executed DbCommand (50ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[FirstName], [s].[LastName], [s].[PhoneNumber]
+FROM [Students] AS [s]
+2022-12-17 22:33:39.704 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Science.Entity.Student, Science.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-12-17 22:33:39.726 +05:00 [INF] Executed action Science.API.Controllers.StudentController.GetAll (Science.API) in 2858.1019ms
+2022-12-17 22:33:39.727 +05:00 [INF] Executed endpoint 'Science.API.Controllers.StudentController.GetAll (Science.API)'
+2022-12-17 22:33:39.737 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7207/api/Student/getAll - - - 200 - application/json;+charset=utf-8 2923.3742ms

@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Science.DTO.Student;
 using Science.Entity;
@@ -21,14 +22,14 @@ namespace Science.API.Controllers
             this.mapper = mapper;
         }
 
-        [HttpGet("getById/{id}")]
+        [HttpGet("getById/{Id}")]
         public async Task<IActionResult> GetById(Guid Id)
         {
             var student = await studentService.GetByIdAsync(Id);
 
             if (student == null)
             {
-                Log.Information("rasvo bo'ldi");
+                Log.Error("rasvo bo'ldi");
 
                 return NotFound();
             }
@@ -52,6 +53,7 @@ namespace Science.API.Controllers
         }
 
         [HttpGet("getAll")]
+        [Authorize]
         public async Task<IActionResult> GetAll()
         {
             //Log.Information("Studentlar ro'yxati olindi");
@@ -62,11 +64,11 @@ namespace Science.API.Controllers
             {
                 return NotFound();
             }
-
+            Log.Error("rasvo bo'ldi");
             return Ok(students);
         }
 
-        [HttpDelete("delete")]
+        [HttpDelete("delete/{Id}")]
         public async Task<IActionResult> Delete(Guid Id)
         {
             bool checker =  await studentService.DeleteAsync(Id);
