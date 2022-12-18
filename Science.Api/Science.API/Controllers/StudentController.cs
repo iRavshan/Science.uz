@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Science.DTO.Student;
 using Science.Entity;
@@ -21,29 +22,65 @@ namespace Science.API.Controllers
             this.mapper = mapper;
         }
 
-        [HttpGet("GetById")]
+        [HttpGet("getById/{Id}")]
         public async Task<IActionResult> GetById(Guid Id)
         {
             var student = await studentService.GetByIdAsync(Id);
-            
+
+            if (student == null)
+            {
+                Log.Error("rasvo bo'ldi");
+
+                return NotFound();
+            }
+
             return Ok(student);
         }
 
         [HttpPost("create")]
         public async Task<IActionResult> Create(StudentCreationDto student)
         {
-            await studentService.CreateAsync(mapper.Map<Student>(student));
+            var newStudent = await studentService.CreateAsync(mapper.Map<Student>(student));
+
+            if (newStudent == null)
+            {
+                return BadRequest();
+            }
 
             await studentService.SaveChangesAsync();
 
             return Ok();
         }
 
-        [HttpGet("GetAll")]
+        [HttpGet("getAll")]
+        [Authorize]
         public async Task<IActionResult> GetAll()
         {
-            Log.Information("Ah, there you are!");
-            return Ok(await studentService.GetAllAsync());
+            //Log.Information("Studentlar ro'yxati olindi");
+
+            IEnumerable<Student> students = await studentService.GetAllAsync();
+
+            if(students == null)
+            {
+                return NotFound();
+            }
+            Log.Error("rasvo bo'ldi");
+            return Ok(students);
+        }
+
+        [HttpDelete("delete/{Id}")]
+        public async Task<IActionResult> Delete(Guid Id)
+        {
+            bool checker =  await studentService.DeleteAsync(Id);
+
+            if(checker == false) 
+            {
+                return NotFound();
+            }
+
+            await studentService.SaveChangesAsync();
+
+            return Ok();
         }
     }
 

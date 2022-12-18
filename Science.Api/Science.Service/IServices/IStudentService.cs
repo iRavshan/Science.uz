@@ -4,12 +4,11 @@ namespace Science.Service.IServices
 {
     public interface IStudentService
     {
+        Task<Student> CreateAsync(Student student);
 
-        Task CreateAsync(Student student);
+        Student Update(Student student);
 
-        void Update(Student student);
-
-        Task<bool> Delete(Guid Id);
+        Task<bool> DeleteAsync(Guid Id);
 
         Task<IEnumerable<Student>> GetAllAsync();
 

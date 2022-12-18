@@ -1,1 +1,14 @@
 2022-12-04 16:36:58.550 +05:00 [INF] Ah, there you are!
+2022-12-04 17:13:35.052 +05:00 [INF] Now listening on: https://localhost:7207
+2022-12-04 17:13:35.111 +05:00 [INF] Now listening on: http://localhost:5265
+2022-12-04 17:13:35.119 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-04 17:13:35.125 +05:00 [INF] Hosting environment: Development
+2022-12-04 17:13:35.131 +05:00 [INF] Content root path: C:\Users\ravsh\OneDrive\Desktop\Science.uz\Science.Api\Science.API
+2022-12-04 17:13:36.007 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7207/swagger/index.html - -
+2022-12-04 17:13:36.398 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7207/swagger/index.html - - - 200 - text/html;charset=utf-8 392.8773ms
+2022-12-04 17:13:36.431 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7207/_framework/aspnetcore-browser-refresh.js - -
+2022-12-04 17:13:36.442 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7207/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 11.2173ms
+2022-12-04 17:13:36.487 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7207/_vs/browserLink - -
+2022-12-04 17:13:36.567 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7207/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 79.3967ms
+2022-12-04 17:13:36.944 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7207/swagger/v1/swagger.json - -
+2022-12-04 17:13:37.094 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7207/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 150.5072ms
